@@ -10,7 +10,6 @@ def main():
     word_count = get_word_count(book_contents)
     char_dict = get_char_dict(book_contents)
     sorted_chars = get_sorted_chars(char_dict)
-    # print(f"char_dict: {char_dict}")
 
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
